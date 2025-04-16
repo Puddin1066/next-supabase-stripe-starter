@@ -1,6 +1,7 @@
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
 import { cookies } from 'next/headers';
 import Link from 'next/link';
+
+import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
 
 export default async function PricingPage() {
   const supabase = createServerComponentClient({ cookies });

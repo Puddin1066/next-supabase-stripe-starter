@@ -1,7 +1,8 @@
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
 import { cookies } from 'next/headers';
-import { redirect } from 'next/navigation';
 import Image from 'next/image';
+import { redirect } from 'next/navigation';
+
+import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
 
 export default async function ResultsPage() {
   const supabase = createServerComponentClient({ cookies });
