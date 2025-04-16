@@ -90,13 +90,6 @@ NEXT_PUBLIC_BASE_URL=http://localhost:3000
    - Deploy
 
 3. Set up the Python environment on Vercel:
-   - Add a `vercel.json` file:
-     ```json
-     {
-       "buildCommand": "npm run build",
-       "installCommand": "npm install && pip install -r requirements.txt"
-     }
-     ```
 
 ## Usage
 
