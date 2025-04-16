@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install && pip install -r requirements.txt",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "PYTHONPATH": "."
+  }
+} 
